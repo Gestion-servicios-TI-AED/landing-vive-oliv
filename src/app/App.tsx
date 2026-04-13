@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+import { useNavigate } from "react-router";
 import { Navbar } from "./components/Navbar";
 import { Hero } from "./components/Hero";
 import { Concept } from "./components/Concept";
@@ -11,6 +13,15 @@ import { Toaster } from "sonner";
 import "../styles/fonts.css";
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.has("submissionGuid")) {
+      navigate("/gracias", { replace: true });
+    }
+  }, [navigate]);
+
   return (
     <div className="bg-[#fcfcfb] min-h-screen font-sans selection:bg-[#1a7d7a] selection:text-white">
       <Navbar />
