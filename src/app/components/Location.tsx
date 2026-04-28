@@ -53,23 +53,23 @@ export const Location = () => {
 
       {/* Mobile: map cropped + distances card */}
       <div className="md:hidden">
-        {/* Map image panned to show the right side (poi markers), hiding the left legend */}
-        <div className="w-full overflow-hidden" style={{ height: "340px" }}>
+        {/* Map cropped to show the central road+markers zone, hiding the left legend */}
+        <div className="mx-4 mb-6 overflow-hidden rounded-2xl shadow-lg" style={{ height: "360px" }}>
           <img
             src={mapImage}
             alt="Mapa de ubicación OLIV Cartagena"
-            className="h-full w-auto max-w-none object-cover object-right"
-            style={{ marginLeft: "auto" }}
+            className="w-full h-full object-cover"
+            style={{ objectPosition: "62% 25%" }}
           />
         </div>
 
-        {/* Distances card */}
+        {/* Distances card — below the map, no overlap */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="mx-4 -mt-6 relative z-10 bg-white rounded-2xl shadow-xl border border-[#1a7d7a]/10 p-6 mb-10"
+          className="mx-4 bg-white rounded-2xl shadow-xl border border-[#1a7d7a]/10 p-6 mb-10"
         >
           <p className="font-serif text-[#1a7d7a] text-xl italic mb-1">
             El epicentro
