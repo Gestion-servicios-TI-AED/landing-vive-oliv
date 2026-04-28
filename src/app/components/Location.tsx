@@ -53,15 +53,19 @@ export const Location = () => {
 
       {/* Mobile: map cropped + distances card */}
       <div className="md:hidden">
-        {/* Map cropped to show the central road+markers zone, hiding the left legend */}
-        <div className="mx-4 mb-6 overflow-hidden rounded-2xl shadow-lg" style={{ height: "360px" }}>
-          <img
-            src={mapImage}
-            alt="Mapa de ubicación OLIV Cartagena"
-            className="w-full h-full object-cover"
-            style={{ objectPosition: "62% 25%" }}
-          />
-        </div>
+        {/* Map zoomed in on coastal road — legend hidden off-left */}
+        <div
+          className="mx-4 mb-6 overflow-hidden rounded-2xl shadow-lg"
+          style={{
+            height: "360px",
+            backgroundImage: `url(${mapImage})`,
+            backgroundSize: "auto 160%",
+            backgroundPosition: "68% 22%",
+            backgroundRepeat: "no-repeat",
+          }}
+          role="img"
+          aria-label="Mapa de ubicación OLIV Cartagena"
+        />
 
         {/* Distances card — below the map, no overlap */}
         <motion.div
