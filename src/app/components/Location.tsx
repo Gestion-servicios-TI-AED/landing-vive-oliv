@@ -36,18 +36,18 @@ export const Location = () => {
         </motion.div>
       </div>
 
-      {/* Desktop: full map image (includes legend overlay) */}
+      {/* Desktop: map contained with padding and rounded corners */}
       <motion.div
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
-        className="hidden md:block w-full"
+        className="hidden md:block container mx-auto px-6 pb-16"
       >
         <img
           src={mapImage}
           alt="Mapa de ubicación OLIV Cartagena"
-          className="w-full h-auto object-cover"
+          className="w-full h-auto rounded-2xl shadow-lg"
         />
       </motion.div>
 
