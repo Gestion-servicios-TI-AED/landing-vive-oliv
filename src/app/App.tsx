@@ -5,6 +5,7 @@ import { Hero } from "./components/Hero";
 import { Concept } from "./components/Concept";
 import { ParallaxBanner } from "./components/ParallaxBanner";
 import { WhyOliv } from "./components/WhyOliv";
+import { Location } from "./components/Location";
 import { Gallery } from "./components/Gallery";
 import { Investment } from "./components/Investment";
 import { LeadForm } from "./components/LeadForm";
@@ -29,6 +30,7 @@ function App() {
       <Concept />
       <ParallaxBanner />
       <WhyOliv />
+      <Location />
       <Gallery />
       <Investment />
       <LeadForm />
