@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import whatsappIcon from "@/assets/2eb802af3311ce96aede3ca65f73d64872f41439.png";
+import whatsappIcon from "@/assets/2eb802af3311ce96aede3ca65f73d64872f41439.webp";
 
 export const FloatingWhatsApp = () => {
   return (

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { CheckCircle, ArrowLeft } from "lucide-react";
-import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.png";
+import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.webp";
 
 export const ThankYou = () => {
   return (

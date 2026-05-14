@@ -1,7 +1,7 @@
 import { Facebook, Instagram, Linkedin, MapPin, Mail, Phone } from "lucide-react";
-import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.png";
-import partnerLogo1 from "@/assets/fa520baa441a756a29cd264f5f51fa4873d109aa.png";
-import partnerLogo2 from "@/assets/8bb56ae87febc8e3ae49068dcfc66b68b0c4b35a.png";
+import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.webp";
+import partnerLogo1 from "@/assets/fa520baa441a756a29cd264f5f51fa4873d109aa.webp";
+import partnerLogo2 from "@/assets/8bb56ae87febc8e3ae49068dcfc66b68b0c4b35a.webp";
 
 export const Footer = () => {
   return (

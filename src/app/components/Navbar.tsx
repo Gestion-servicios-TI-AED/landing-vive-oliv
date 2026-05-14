@@ -1,7 +1,7 @@
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
 import clsx from "clsx";
-import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.png";
+import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.webp";
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);

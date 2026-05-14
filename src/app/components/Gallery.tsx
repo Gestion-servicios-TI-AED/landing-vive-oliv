@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 import { Plus } from "lucide-react";
 
 // Importing specific gallery images
-import img1 from "@/assets/24f0cbc70e74c25c9499d5af51ef48642fc6e71d.png";
-import img2 from "@/assets/2f9ae18fc947bec354c5b8689cbd4bd6ed95cdc5.png";
-import img3 from "@/assets/4c62c95b6a44466c93ff928caebde05091f3cbb1.png";
-import img4 from "@/assets/6c54e51edc3a6295aed8d9f46d17d46b011bdbbf.png";
-import img5 from "@/assets/46d1721f9b01f42b713e78528dea0c805fde04fd.png";
-import img6 from "@/assets/685202cb36a929d95b2f5d55dbf3dd08d5674cf1.png";
+import img1 from "@/assets/24f0cbc70e74c25c9499d5af51ef48642fc6e71d.webp";
+import img2 from "@/assets/2f9ae18fc947bec354c5b8689cbd4bd6ed95cdc5.webp";
+import img3 from "@/assets/4c62c95b6a44466c93ff928caebde05091f3cbb1.webp";
+import img4 from "@/assets/6c54e51edc3a6295aed8d9f46d17d46b011bdbbf.webp";
+import img5 from "@/assets/46d1721f9b01f42b713e78528dea0c805fde04fd.webp";
+import img6 from "@/assets/685202cb36a929d95b2f5d55dbf3dd08d5674cf1.webp";
 
 const images = [img1, img2, img3, img4, img5, img6];
 

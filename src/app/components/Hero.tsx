@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { Link } from "react-scroll";
 import { ChevronDown } from "lucide-react";
-import heroImage from "@/assets/f210e3b6d6b278eb10dadb525684c3eb7aac40d8.png";
+import heroImage from "@/assets/f210e3b6d6b278eb10dadb525684c3eb7aac40d8.webp";
 
 export const Hero = () => {
   return (

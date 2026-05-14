@@ -1,17 +1,18 @@
 import { motion } from "motion/react";
-import mapImage from "@/assets/mapa-oliv-web.jpg";
+import mapDesktop from "@/assets/mapa-desktop-oliv.webp";
+import mapMobile from "@/assets/mapa-mobile-oliv.webp";
 
 const distances = [
-  { icon: "⛽", minutes: 2,  label: "Estación de gasolina" },
-  { icon: "🏖️", minutes: 6,  label: "Playas de Manzanillo" },
-  { icon: "🎓", minutes: 5,  label: "Universidades y colegios" },
-  { icon: "🏥", minutes: 7,  label: "Hospital Serena del Mar" },
-  { icon: "✈️", minutes: 9,  label: "Aeropuerto" },
-  { icon: "🛍️", minutes: 5,  label: "Centros comerciales" },
-  { icon: "🍽️", minutes: 5,  label: "Restaurantes" },
-  { icon: "🛒", minutes: 7,  label: "Supermercados" },
-  { icon: "💊", minutes: 5,  label: "Droguerías" },
-  { icon: "🐾", minutes: 5,  label: "Tienda de mascotas" },
+  { icon: "⛽", minutes: 2, label: "Estación de gasolina" },
+  { icon: "🏖️", minutes: 6, label: "Playas de Manzanillo" },
+  { icon: "🎓", minutes: 5, label: "Universidades y colegios" },
+  { icon: "🏥", minutes: 7, label: "Hospital Serena del Mar" },
+  { icon: "✈️", minutes: 9, label: "Aeropuerto" },
+  { icon: "🛍️", minutes: 5, label: "Centros comerciales" },
+  { icon: "🍽️", minutes: 5, label: "Restaurantes" },
+  { icon: "🛒", minutes: 7, label: "Supermercados" },
+  { icon: "💊", minutes: 5, label: "Droguerías" },
+  { icon: "🐾", minutes: 5, label: "Tienda de mascotas" },
   { icon: "🏛️", minutes: 12, label: "Centro Histórico" },
 ];
 
@@ -45,7 +46,7 @@ export const Location = () => {
         className="hidden md:block container mx-auto px-6 pb-16"
       >
         <img
-          src={mapImage}
+          src={mapDesktop}
           alt="Mapa de ubicación OLIV Cartagena"
           className="w-full h-auto rounded-2xl shadow-lg"
         />
@@ -58,7 +59,7 @@ export const Location = () => {
           className="mx-4 mb-6 overflow-hidden rounded-2xl shadow-lg"
           style={{
             height: "360px",
-            backgroundImage: `url(${mapImage})`,
+            backgroundImage: `url(${mapMobile})`,
             backgroundSize: "auto 160%",
             backgroundPosition: "68% 22%",
             backgroundRepeat: "no-repeat",
