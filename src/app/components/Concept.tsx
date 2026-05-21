@@ -48,7 +48,7 @@ export const Concept = () => {
                  <p className="text-gray-500 font-sans text-sm">Déjanos tus datos para recibir información exclusiva y prioritaria.</p>
                </div>
                <HubSpotForm />
-               <p className="mt-4 text-center text-xs text-gray-400 font-sans font-light">
+               <p className="mt-4 text-center text-xs text-gray-600 font-sans font-semibold">
                  Al enviar este formulario, aceptas las{" "}
                  <a
                    href="https://olivcartagena.com/politica-de-tratamiento-de-datos"

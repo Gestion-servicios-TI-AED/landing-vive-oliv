@@ -23,7 +23,7 @@ export const LeadForm = () => {
           className="bg-white p-8 md:p-12 rounded-xl shadow-2xl border border-gray-100"
         >
           <HubSpotForm />
-          <p className="mt-4 text-center text-xs text-gray-400 font-sans font-light">
+          <p className="mt-4 text-center text-xs text-gray-600 font-sans font-semibold">
             Al enviar este formulario, aceptas las{" "}
             <a
               href="https://olivcartagena.com/politica-de-tratamiento-de-datos"
