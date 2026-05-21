@@ -48,6 +48,18 @@ export const Concept = () => {
                  <p className="text-gray-500 font-sans text-sm">Déjanos tus datos para recibir información exclusiva y prioritaria.</p>
                </div>
                <HubSpotForm />
+               <p className="mt-4 text-center text-xs text-gray-400 font-sans font-light">
+                 Al enviar este formulario, aceptas las{" "}
+                 <a
+                   href="https://olivcartagena.com/politica-de-tratamiento-de-datos"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   className="underline hover:text-[#1a7d7a] transition-colors"
+                 >
+                   condiciones y tratamiento de datos personales
+                 </a>
+                 .
+               </p>
              </div>
              
              {/* Decorative background element behind the card */}
