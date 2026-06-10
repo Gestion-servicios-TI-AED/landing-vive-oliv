@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import bannerImage from "@/assets/Porteria.png";
+import bannerImage from "@/assets/Porteria.webp";
 
 export const ParallaxBanner = () => {
   const ref = useRef(null);

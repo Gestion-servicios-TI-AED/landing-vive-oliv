@@ -1,12 +1,12 @@
 import { motion } from "motion/react";
 
 // Importing specific gallery images
-import img1 from "@/assets/Gemini Oliv Sala.png";
-import img2 from "@/assets/Gemini_canchatenis.jpeg";
-import img3 from "@/assets/Gemini_Liva_Vista_Botanica.png";
-import img4 from "@/assets/Gemini_Pilates.png";
-import img5 from "@/assets/Gemini_Piscina.png";
-import img6 from "@/assets/Gemini_senderos_ caminata.jpeg";
+import img1 from "@/assets/Gemini Oliv Sala.webp";
+import img2 from "@/assets/Gemini_canchatenis.webp";
+import img3 from "@/assets/Gemini_Liva_Vista_Botanica.webp";
+import img4 from "@/assets/Gemini_Pilates.webp";
+import img5 from "@/assets/Gemini_Piscina.webp";
+import img6 from "@/assets/Gemini_senderos_ caminata.webp";
 
 const images = [
   { src: img1, label: "Sala" },
