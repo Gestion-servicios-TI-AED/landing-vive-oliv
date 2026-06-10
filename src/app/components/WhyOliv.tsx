@@ -36,11 +36,11 @@ export const WhyOliv = () => {
           className="mb-20"
         >
           <h2 className="text-4xl md:text-5xl font-serif text-[#1a7d7a] mb-6">
-            ¿Por qué OLIV?
+            Cambiar la prisa por la calma<br />
+            <span className="italic font-light">de lo esencial, es buen vivir</span>
           </h2>
           <div className="w-16 h-px bg-[#feb301] mx-auto mb-6"></div>
-          <p className="text-[#1a7d7a]/80 font-sans text-lg max-w-2xl mx-auto italic">
-            OLIV no Improvisa, OLIV decide. <br className="hidden md:block" />
+          <p className="text-[#1a7d7a]/80 font-sans text-lg max-w-2xl mx-auto">
             Entendemos que buscas un hogar que sea coherente con tus valores y seguro para tu patrimonio.
           </p>
         </motion.div>

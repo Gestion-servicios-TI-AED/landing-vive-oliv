@@ -18,17 +18,20 @@ export const Concept = () => {
             <div className="max-w-xl">
               
               <h2 className="text-4xl md:text-5xl font-serif text-[#1a7d7a] leading-tight mb-8">
-                La ciudad crece. <br /><span className="italic font-light">¿Tu calidad de vida también?</span>
+                ¿Por qué OLIV <br /><span className="italic font-light">es diferente?</span>
               </h2>
               <div className="prose prose-lg text-gray-600 font-sans font-light leading-relaxed">
                 <p className="mb-6">
-                  Cartagena no se detiene, pero tu calidad de vida no debería quedarse atrás. Sientes que existe otra forma de vivir: con más espacio, más calma y más coherencia con lo que quieres para tu familia.
+                  Cartagena no se detiene y tu calidad de vida no debería quedarse atrás.
                 </p>
                 <p className="mb-6">
-                  No se trata solo de cambiar de hogar. Se trata de no improvisar el futuro, de elegir con intención y tranquilidad.
+                  En un mercado donde todos construyen más, en OLIV decidimos construir mejor. Con más espacio, más calma, y más coherencia con lo que quieres para tu familia.
+                </p>
+                <p className="mb-6">
+                  Elegimos baja densidad, pusimos la vegetación en los planos antes que el concreto. Y diseñamos cada decisión con una intención clara: crear un lugar donde se pueda vivir hoy con plenitud y mañana con certeza.
                 </p>
                 <p>
-                  Esta vez quieres decidir bien. Porque el buen vivir de tu familia debe ir de la mano con la solidez de tu patrimonio.
+                  No es un proyecto que promete naturaleza en el catálogo — es un proyecto donde la naturaleza tiene dirección de obra.
                 </p>
               </div>
             </div>
@@ -44,7 +47,7 @@ export const Concept = () => {
           >
              <div className="relative z-10 bg-white p-8 md:p-10 rounded-xl shadow-2xl border border-gray-100 w-full">
                <div className="mb-8">
-                 <h3 className="text-2xl font-serif text-[#1a7d7a] mb-2">Sé parte de los Fundadores</h3>
+                 <h3 className="text-2xl font-serif text-[#1a7d7a] mb-2">Regístrate y accede a precios de lanzamiento</h3>
                  <p className="text-gray-500 font-sans text-sm">Déjanos tus datos para recibir información exclusiva y prioritaria.</p>
                </div>
                <HubSpotForm />

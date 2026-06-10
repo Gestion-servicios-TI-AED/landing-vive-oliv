@@ -29,18 +29,46 @@ export const Hero = () => {
             OLIV: El lugar donde tu familia <br className="hidden md:block" />
             <span className="italic font-light">encuentra el Buen Vivir.</span>
           </h1>
-          <p className="text-white/95 text-lg md:text-xl font-sans font-light mb-10 max-w-2xl mx-auto md:mx-0 tracking-wide drop-shadow-md">
-            Mucho más que un proyecto; es la decisión consciente de habitar un entorno donde la vida respira y la naturaleza guía el crecimiento de tu familia.
-          </p>
-
-          <Link
-            to="lead-form"
-            smooth={true}
-            duration={800}
-            className="inline-block px-8 py-4 bg-[#00857c] text-white font-sans font-medium tracking-wide hover:bg-[#006e67] transition-all transform hover:scale-105 rounded-full cursor-pointer shadow-lg hover:shadow-xl"
+          <motion.ul
+            initial="hidden"
+            animate="visible"
+            variants={{ visible: { transition: { staggerChildren: 0.1, delayChildren: 0.5 } } }}
+            className="mb-10 max-w-2xl mx-auto md:mx-0 space-y-3"
           >
-            Quiero mi Acceso al Plan Fundadores
-          </Link>
+            {[
+              "El proyecto con más verde de la Zona Norte",
+              "7 hectáreas · 9 torres · Amenidades",
+              "Baja densidad por diseño, no por accidente",
+              "Con un corredor biológico natural que llega al mar",
+            ].map((item) => (
+              <motion.li
+                key={item}
+                variants={{
+                  hidden: { opacity: 0, x: -14 },
+                  visible: { opacity: 1, x: 0, transition: { duration: 0.5, ease: [0.25, 0.46, 0.45, 0.94] } },
+                }}
+                className="flex items-center gap-3 text-white/90 text-base md:text-lg font-sans font-light tracking-wide drop-shadow-md"
+              >
+                <span className="w-2 h-2 rounded-full bg-[#2dc4bb] shrink-0 shadow-[0_0_6px_2px_rgba(45,196,187,0.45)]" />
+                {item}
+              </motion.li>
+            ))}
+          </motion.ul>
+
+          <motion.div
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 1.1, duration: 0.5, ease: "easeOut" }}
+          >
+            <Link
+              to="lead-form"
+              smooth={true}
+              duration={800}
+              className="inline-block px-8 py-4 bg-[#00857c] text-white font-sans font-medium tracking-wide hover:bg-[#006e67] transition-all transform hover:scale-105 rounded-full cursor-pointer shadow-lg hover:shadow-xl"
+            >
+              Registrarme al Plan Fundadores
+            </Link>
+          </motion.div>
         </motion.div>
       </div>
 

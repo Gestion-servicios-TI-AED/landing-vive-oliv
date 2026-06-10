@@ -1,3 +1,5 @@
+@../../SECURITY.md
+
 # Contexto del proyecto
 
 Micrositio inmobiliario en React + Vite + TypeScript, desplegado en Cloudflare Workers con assets estáticos (SPA). Usa React Router para el routing client-side.

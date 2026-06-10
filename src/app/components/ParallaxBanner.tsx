@@ -1,7 +1,7 @@
 import { motion, useScroll, useTransform } from "motion/react";
 import { useRef } from "react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
-import bannerImage from "@/assets/0d3100e150f4dbd82c86b890b8f598b6d9d629ef.webp";
+import bannerImage from "@/assets/Porteria.png";
 
 export const ParallaxBanner = () => {
   const ref = useRef(null);
@@ -22,7 +22,7 @@ export const ParallaxBanner = () => {
         <ImageWithFallback
           src={bannerImage}
           alt="Familia caminando en el jardín"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-bottom"
         />
       </motion.div>
       
