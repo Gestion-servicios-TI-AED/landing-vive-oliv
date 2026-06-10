@@ -29,7 +29,7 @@ export const Gallery = () => {
         </p>
       </div>
 
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+      <div className="w-full grid grid-cols-2 lg:grid-cols-3 gap-0.5 lg:gap-0">
         {images.map(({ src, label }, index) => (
           <motion.div
             key={index}
@@ -37,16 +37,16 @@ export const Gallery = () => {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1, duration: 0.6 }}
-            className="relative group cursor-pointer overflow-hidden h-[400px]"
+            className="relative group cursor-pointer overflow-hidden h-[220px] md:h-[300px] lg:h-[400px]"
           >
             <img
               src={src}
               alt={label}
               className="w-full h-full object-cover block transform transition-transform duration-700 group-hover:scale-105"
             />
-            {/* Gradient overlay sliding up on hover */}
-            <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-black/70 to-transparent translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out flex items-end px-6 pb-6">
-              <span className="text-white font-serif text-xl italic opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 drop-shadow-md">
+            {/* Mobile + tablet: overlay siempre visible. Desktop: sube al hover */}
+            <div className="absolute inset-x-0 bottom-0 h-28 lg:h-40 bg-gradient-to-t from-black/65 to-transparent lg:translate-y-full lg:group-hover:translate-y-0 transition-transform duration-500 ease-out flex items-end px-3 lg:px-6 pb-3 lg:pb-6">
+              <span className="text-white font-serif text-sm md:text-base lg:text-xl italic lg:opacity-0 lg:group-hover:opacity-100 lg:transition-opacity lg:duration-300 lg:delay-150 drop-shadow-md leading-snug">
                 {label}
               </span>
             </div>
