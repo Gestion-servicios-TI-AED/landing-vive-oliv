@@ -4,9 +4,9 @@ import logo from "@/assets/e70c42e76d8f373f7319be198453a0d6dc47133e.webp";
 
 export const ThankYou = () => {
   return (
-    <div className="bg-[#fcfcfb] min-h-screen font-sans selection:bg-[#1a7d7a] selection:text-white flex flex-col">
+    <div className="bg-[#fcfcfb] min-h-screen font-sans selection:bg-[#2e3f22] selection:text-white flex flex-col">
       {/* Minimal Top Bar */}
-      <header className="w-full py-6 px-6 flex justify-center bg-[#125755] rounded-b-2xl">
+      <header className="w-full py-6 px-6 flex justify-center bg-[#2e3f22] rounded-b-2xl">
         <a href="/">
           <img src={logo} alt="OLIV Cartagena" className="h-10 md:h-12 w-auto" />
         </a>
@@ -25,11 +25,11 @@ export const ThankYou = () => {
             <div className="relative inline-flex items-center justify-center">
               {/* Pulse ring */}
               <motion.div
-                className="absolute w-24 h-24 rounded-full bg-[#00857c]/10"
+                className="absolute w-24 h-24 rounded-full bg-[#2e3f22]/10"
                 animate={{ scale: [1, 1.4, 1], opacity: [0.5, 0, 0.5] }}
                 transition={{ duration: 2.5, repeat: Infinity, ease: "easeInOut" }}
               />
-              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#00857c] to-[#125755] flex items-center justify-center shadow-lg">
+              <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#2e3f22] to-[#2e3f22] flex items-center justify-center shadow-lg">
                 <motion.div
                   initial={{ pathLength: 0 }}
                   animate={{ pathLength: 1 }}
@@ -46,11 +46,11 @@ export const ThankYou = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
-            className="text-3xl md:text-4xl lg:text-5xl font-serif text-[#125755] leading-tight mb-5"
+            className="text-3xl md:text-4xl lg:text-5xl font-serif text-[#2e3f22] leading-tight mb-5"
           >
             Ya haces parte de la
             <br />
-            <span className="italic font-light text-[#1a7d7a]">Lista 0 de OLIV.</span>
+            <span className="italic font-light text-[#2e3f22]">Lista 0 de OLIV.</span>
           </motion.h1>
 
           {/* Subtitle */}
@@ -68,7 +68,7 @@ export const ThankYou = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.6 }}
-            className="text-xl md:text-2xl font-serif italic text-[#1a7d7a] mb-12"
+            className="text-xl md:text-2xl font-serif italic text-[#2e3f22] mb-12"
           >
             Esto es solo el inicio del buen vivir. 🌿
           </motion.p>
@@ -82,7 +82,7 @@ export const ThankYou = () => {
           >
             <a
               href="/"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-[#00857c] text-white font-sans font-medium tracking-wide hover:bg-[#006e67] transition-all transform hover:scale-105 rounded-full shadow-lg hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#2e3f22] text-white font-sans font-medium tracking-wide hover:bg-[#2e3f22] transition-all transform hover:scale-105 rounded-full shadow-lg hover:shadow-xl"
             >
               <ArrowLeft className="w-4 h-4" />
               Volver al sitio principal
@@ -102,7 +102,7 @@ export const ThankYou = () => {
       </main>
 
       {/* Minimal Footer */}
-      <footer className="py-6 text-center border-t border-[#125755]/5">
+      <footer className="py-6 text-center border-t border-[#2e3f22]/5">
         <p className="text-xs font-sans font-light text-[#999]">
           © {new Date().getFullYear()} OLIV Cartagena. Todos los derechos reservados.
         </p>

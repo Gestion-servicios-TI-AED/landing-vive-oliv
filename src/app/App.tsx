@@ -24,7 +24,7 @@ function App() {
   }, [navigate]);
 
   return (
-    <div className="bg-[#fcfcfb] min-h-screen font-sans selection:bg-[#1a7d7a] selection:text-white">
+    <div className="bg-[#fcfcfb] min-h-screen font-sans selection:bg-[#2e3f22] selection:text-white">
       <Navbar />
       <Hero />
       <Concept />

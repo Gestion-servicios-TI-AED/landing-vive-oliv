@@ -18,7 +18,7 @@ export const Investment = () => {
   ];
 
   return (
-    <section id="investment" className="py-32 bg-[#1a7d7a] text-white relative overflow-hidden">
+    <section id="investment" className="py-32 bg-[#2e3f22] text-white relative overflow-hidden">
       {/* Abstract Background Element */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-[#feb301] opacity-5 transform skew-x-12 translate-x-1/2"></div>
       
@@ -46,7 +46,7 @@ export const Investment = () => {
                 className="flex flex-col items-start group"
               >
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-8 h-8 rounded-full bg-[#feb301] flex items-center justify-center text-[#1a7d7a]">
+                  <div className="w-8 h-8 rounded-full bg-[#feb301] flex items-center justify-center text-[#2e3f22]">
                     <Check size={18} strokeWidth={3} />
                   </div>
                   <h3 className="text-xl font-serif text-[#feb301]">

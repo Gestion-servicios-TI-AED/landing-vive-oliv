@@ -35,12 +35,12 @@ export const WhyOliv = () => {
           transition={{ duration: 0.8 }}
           className="mb-20"
         >
-          <h2 className="text-4xl md:text-5xl font-serif text-[#1a7d7a] mb-6">
+          <h2 className="text-4xl md:text-5xl font-serif text-[#2e3f22] mb-6">
             Cambiar la prisa por la calma<br />
             <span className="italic font-light">de lo esencial, es buen vivir</span>
           </h2>
           <div className="w-16 h-px bg-[#feb301] mx-auto mb-6"></div>
-          <p className="text-[#1a7d7a]/80 font-sans text-lg max-w-2xl mx-auto">
+          <p className="text-[#2e3f22]/80 font-sans text-lg max-w-2xl mx-auto">
             Entendemos que buscas un hogar que sea coherente con tus valores y seguro para tu patrimonio.
           </p>
         </motion.div>
@@ -56,16 +56,16 @@ export const WhyOliv = () => {
               className="flex flex-col items-center"
             >
               <div className="mb-8 relative group">
-                <div className="w-16 h-16 rounded-full bg-[#1a7d7a]/5 flex items-center justify-center transition-all duration-500 group-hover:bg-[#feb301]/10 relative z-10">
+                <div className="w-16 h-16 rounded-full bg-[#2e3f22]/5 flex items-center justify-center transition-all duration-500 group-hover:bg-[#feb301]/10 relative z-10">
                   {feature.icon}
                 </div>
                 {/* Sutil halo de luz al hover */}
                 <div className="absolute inset-0 bg-[#feb301]/5 rounded-full scale-125 opacity-0 group-hover:opacity-100 blur-lg transition-all duration-700" />
               </div>
-              <h3 className="text-xl font-serif text-[#1a7d7a] mb-4">
+              <h3 className="text-xl font-serif text-[#2e3f22] mb-4">
                 {feature.title}
               </h3>
-              <p className="font-sans font-light text-[#1a7d7a]/70 text-sm max-w-[240px] mx-auto leading-relaxed">
+              <p className="font-sans font-light text-[#2e3f22]/70 text-sm max-w-[240px] mx-auto leading-relaxed">
                 {feature.desc}
               </p>
             </motion.div>

@@ -6,7 +6,7 @@ export const LeadForm = () => {
     <section id="lead-form" className="py-24 bg-white">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-serif text-[#1a7d7a] mb-8 leading-snug">
+          <h2 className="text-3xl md:text-5xl font-serif text-[#2e3f22] mb-8 leading-snug">
             Asegura tu legado en el <br />
             <span className="block mt-3">Plan Fundadores</span>
           </h2>
@@ -29,7 +29,7 @@ export const LeadForm = () => {
               href="https://olivcartagena.com/politica-de-tratamiento-de-datos"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-[#1a7d7a] transition-colors"
+              className="underline hover:text-[#2e3f22] transition-colors"
             >
               política de tratamiento de datos
             </a>{" "}

@@ -5,7 +5,7 @@ import partnerLogo2 from "@/assets/8bb56ae87febc8e3ae49068dcfc66b68b0c4b35a.webp
 
 export const Footer = () => {
   return (
-    <footer className="bg-[#125755] text-[#f5f5f0] pt-20 pb-10 border-t border-[#1a7d7a]">
+    <footer className="bg-[#2e3f22] text-[#f5f5f0] pt-20 pb-10 border-t border-[#2e3f22]">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-16 text-center md:text-left">
           {/* Brand */}

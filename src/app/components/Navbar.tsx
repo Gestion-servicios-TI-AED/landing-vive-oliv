@@ -18,7 +18,7 @@ export const Navbar = () => {
     <nav
       className={clsx(
         "fixed top-0 left-0 w-full z-50 transition-all duration-300 font-sans",
-        scrolled ? "bg-[#1a7d7a]/95 backdrop-blur-md py-4 shadow-lg" : "bg-transparent py-6"
+        scrolled ? "bg-[#2e3f22]/95 backdrop-blur-md py-4 shadow-lg" : "bg-transparent py-6"
       )}
     >
       <div className="container mx-auto px-6 flex justify-center md:justify-between items-center">
@@ -34,7 +34,7 @@ export const Navbar = () => {
             to="lead-form"
             smooth={true}
             duration={800}
-            className="px-6 py-2 bg-[#00857c] text-white text-sm tracking-wide hover:bg-[#006e67] transition-colors rounded-full cursor-pointer shadow-sm hover:shadow-md"
+            className="px-6 py-2 bg-[#2e3f22] text-white text-sm tracking-wide hover:bg-[#2e3f22] transition-colors rounded-full cursor-pointer shadow-sm hover:shadow-md"
           >
             Ser Fundador
           </Link>

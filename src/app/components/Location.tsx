@@ -14,11 +14,11 @@ export const Location = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-[#1a7d7a] mb-4">
+          <h2 className="text-3xl md:text-5xl font-serif text-[#2e3f22] mb-4">
             Ubicado en la Zona Norte de Cartagena
           </h2>
           <div className="w-16 h-px bg-[#feb301] mx-auto mb-5" />
-          <p className="text-[#1a7d7a]/70 font-sans italic text-lg">
+          <p className="text-[#2e3f22]/70 font-sans italic text-lg">
             Cartagena lo tiene todo. Oliv te da un espacio para disfrutarlo mejor.
           </p>
         </motion.div>

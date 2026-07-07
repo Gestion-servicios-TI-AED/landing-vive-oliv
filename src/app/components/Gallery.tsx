@@ -21,7 +21,7 @@ export const Gallery = () => {
   return (
     <section id="gallery" className="bg-[#fcfcfb]">
       <div className="py-24 container mx-auto px-6 text-center">
-        <h2 className="text-3xl md:text-5xl font-serif text-[#1a7d7a] mb-4">
+        <h2 className="text-3xl md:text-5xl font-serif text-[#2e3f22] mb-4">
           Esencia Visual
         </h2>
         <p className="text-gray-500 font-sans max-w-2xl mx-auto">

@@ -64,7 +64,7 @@ export const Hero = () => {
               to="lead-form"
               smooth={true}
               duration={800}
-              className="inline-block px-8 py-4 bg-[#00857c] text-white font-sans font-medium tracking-wide hover:bg-[#006e67] transition-all transform hover:scale-105 rounded-full cursor-pointer shadow-lg hover:shadow-xl"
+              className="inline-block px-8 py-4 bg-[#2e3f22] text-white font-sans font-medium tracking-wide hover:bg-[#2e3f22] transition-all transform hover:scale-105 rounded-full cursor-pointer shadow-lg hover:shadow-xl"
             >
               Registrarme al Plan Fundadores
             </Link>

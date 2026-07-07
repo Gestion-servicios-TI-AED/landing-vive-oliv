@@ -17,7 +17,7 @@ export const Concept = () => {
           >
             <div className="max-w-xl">
               
-              <h2 className="text-4xl md:text-5xl font-serif text-[#1a7d7a] leading-tight mb-8">
+              <h2 className="text-4xl md:text-5xl font-serif text-[#2e3f22] leading-tight mb-8">
                 ¿Por qué OLIV <br /><span className="italic font-light">es diferente?</span>
               </h2>
               <div className="prose prose-lg text-gray-600 font-sans font-light leading-relaxed">
@@ -47,7 +47,7 @@ export const Concept = () => {
           >
              <div className="relative z-10 bg-white p-8 md:p-10 rounded-xl shadow-2xl border border-gray-100 w-full">
                <div className="mb-8">
-                 <h3 className="text-2xl font-serif text-[#1a7d7a] mb-2">Regístrate y accede a precios de lanzamiento</h3>
+                 <h3 className="text-2xl font-serif text-[#2e3f22] mb-2">Regístrate y accede a precios de lanzamiento</h3>
                  <p className="text-gray-500 font-sans text-sm">Déjanos tus datos para recibir información exclusiva y prioritaria.</p>
                </div>
                <HubSpotForm />
@@ -57,7 +57,7 @@ export const Concept = () => {
                    href="https://olivcartagena.com/politica-de-tratamiento-de-datos"
                    target="_blank"
                    rel="noopener noreferrer"
-                   className="underline hover:text-[#1a7d7a] transition-colors"
+                   className="underline hover:text-[#2e3f22] transition-colors"
                  >
                    política de tratamiento de datos
                  </a>{" "}
